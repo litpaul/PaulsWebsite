@@ -5,11 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paul's Site</title>
+    <link rel="styles.css" href="styles.css">
 </head>
 <body>
     <h1>Welcome to my BI site!</h1>
     <img src="headshot.png" height="200px">
     <p>Welcome to my place of showing you analytics, 
         come back soon to see what changes I make!</p>
-</body>
+
+        <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+        <script src="https://code.highcharts.com/maps/modules/data.js"></script>
+        <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+        <script src="https://code.highcharts.com/maps/modules/offline-exporting.js"></script>
+        <script src="https://code.highcharts.com/maps/modules/accessibility.js"></script>
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/series-label.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+        <script src="https://code.highcharts.com/modules/export-data.js"></script>
+        <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+        <script src="https://code.highcharts.com/highcharts-more.js"></script>
+
+<figure class="highcharts-figure">
+    <p class="highcharts-description">
+        Line Chart
+    </p>
+    <div id="linecontainer"></div>
+    <script src="line.js"></script>
+</figure>
+
+
+
+<figure class="highcharts-figure">
+    <p class="highcharts-description">
+        Stacked Area Chart
+    </p>
+    <div id="areacontainer" style="border:2px solid red;"></div>
+    <script src="area.js"></script>
+</figure>
+
+<figure class="highcharts-figure">
+    <p class="highcharts-description">
+        Column Comparisons with Negative Values
+    </p>
+    <div id="negativecontainer"></div>
+    <script src="negative.js"></script>
+</figure>
+
+<figure class="highcharts-figure">
+    <p class="highcharts-description">
+        Pie Chart
+      </p>
+    <div id="piecontainer"></div>
+    <script src="pie.js"></script>
+  </figure>
+
+  <figure class="highcharts-figure">
+    <p class="highcharts-description">
+        Speedometer
+    </p>
+    <div id="speedcontainer"></div>
+    <script src="speed.js"></script>
+</figure>
+
+<figure class="highcharts-figure">
+    <p class="highcharts-description">
+        Spiderweb
+    </p>
+    <div id="spidercontainer"></div>
+    <script src="spider.js"></script>
+</figure>
+
+<figure class="highmap-figure">
+    <p class="highmap-description">
+        Map
+    </p>
+    <div id="mapcontainer"></div>
+    <script src="map.js"></script>
+</figure>
+
+    </body>
 </html>
